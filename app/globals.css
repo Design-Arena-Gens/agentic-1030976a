@@ -1,0 +1,42 @@
+:root {
+  --sky-top: #152444;
+  --sky-bottom: #274b8f;
+  --pitch-green: #1c9239;
+  --pitch-light: #36b24d;
+  --stadium-wall: #0f172a;
+  --accent-yellow: #ffd166;
+  --accent-pink: #ff8fab;
+  --diaper: #f8f9fb;
+  --skin-tone: #f6d1a6;
+  --ball-white: #fefefe;
+  --ball-black: #1b1b1b;
+  --net-white: rgba(255, 255, 255, 0.75);
+  --shadow: rgba(12, 12, 12, 0.25);
+  color-scheme: only light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", sans-serif;
+  background: radial-gradient(circle at 50% -40%, #ffffff22, transparent 60%),
+    linear-gradient(var(--sky-top), var(--sky-bottom));
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+.page-shell {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+}
+
+button {
+  font-family: inherit;
+}
